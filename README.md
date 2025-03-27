@@ -19,7 +19,10 @@
 Есть 4 эндпоинта - 2 возвращают xml, 2 возвращают json
 
 `/externalApi/getCountriesXml` - возвращает список стран с ISO кодом, отсортировано по ISO коду, возвращает xml
+
 `/externalApi/getCountriesJson` - возвращает список стран в формате json
+
 `/externalApi/getCurrencyByIsoXml/{isoCode}` - возвращает код валюты и название в формате xml, указывается код например так - RU
+
 `/externalApi/getCurrencyByIsoJson/{isoCode}` - возвращает тоже самое, но в json
 
